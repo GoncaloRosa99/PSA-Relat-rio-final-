@@ -18,4 +18,6 @@ De salientar que alguns códigos presentes no relatório não estão atualizados
 -Codigo para aquisição e tratamento dos dados do MPU (mpu_2.m;)
 
 Para além destes ficheiros estão ainda 2 relatórios efetuados a meio do semestre (PSA_WOKWI.pdf e PSA_Relatório_trajetórias.pdf)
+
+Apresentam-se também os ficheiros de modelação no solidworks/simscape dos 3 corpos estudados (Modelo de braço robódico, Delta genérico e Delta com medidas específicas).
 	
