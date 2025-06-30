@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/08/25||19:45:44" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="127">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Fixado-1" uid="Fixado-1" grounded="true" entityUid="Fixado*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043030717015665729 0.042206469304316818 0.093832123751007732</Translation>
+</Transform>
+</Instance>
+<Instance name="Bracoguincho-2" uid="Bracoguincho-2" entityUid="Bracoguincho*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 -1</Rotation>
+<Translation>0.13196928298433427 0.042282549307543577 0.093832123751007732</Translation>
+</Transform>
+</Instance>
+<Instance name="Bracofixo-1" uid="Bracofixo-1" entityUid="Bracofixo*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0080307170156657323 0.042282549307543577 0.093832123751007732</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fixado-1</Uid>
+</InstancePath>
+<Position>0.034999999999999996 7.6080003226758341e-05 -0.029999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracofixo-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fixado-1</Uid>
+</InstancePath>
+<Position>0.059999999999999998 -0.029923919996773234 0.009999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracofixo-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracofixo-1</Uid>
+</InstancePath>
+<Position>0.14000000000000001 0 0.009999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bracoguincho-2</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracofixo-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bracoguincho-2</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 -0.012500000000000004 -0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Bracofixo" uid="Bracofixo*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bracofixo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.067251106428108942</Mass>
+<CenterOfMass>0.069999999999999979 0 0</CenterOfMass>
+<Inertia>5.9568728125493963e-06 0.00011046646097694983 0.00011193992669429195 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bracofixo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bracoguincho" uid="Bracoguincho*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bracoguincho.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064751106428108912</Mass>
+<CenterOfMass>0.054263546101345782 0 0</CenterOfMass>
+<Inertia>8.696525297639533e-06 5.1152465396838276e-05 4.9625861962423597e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bracoguincho_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Fixado" uid="Fixado*:*Default" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Fixado.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20743362938564075</Mass>
+<CenterOfMass>0.020537542736512187 1.7397134145520409e-05 0</CenterOfMass>
+<Inertia>0.00024890729190692884 0.00020201970834462195 0.00019115118811732879 -9.1296003872128254e-08 0 -5.219140243659847e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Fixado_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
