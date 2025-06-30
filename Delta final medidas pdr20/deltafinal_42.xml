@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/29/25||18:33:17" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="deltafinal" uid="deltafinal" version="411">
+<AssemblyFile name="deltafinal.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Barra_cima-2" uid="Barra_cima-2" entityUid="Barra_cima*:*Default">
+<Transform>
+<Rotation>0.86274611832022652 -1.5401650372725359e-12 0.50563735554583145 1.7852281954730433e-12 1 0 -0.50563735554583156 9.0253393164891496e-13 0.86274611832022674</Rotation>
+<Translation>-0.24503205696815816 -0.010000000000292792 0.14360813532499428</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_cima-1" uid="Barra_cima-1" entityUid="Barra_cima*:*Default">
+<Transform>
+<Rotation>0.86926785416552643 -1.9311079188027995e-12 -0.49434137770822001 2.2214987475498255e-12 1 0 0.49434137770822001 -1.0981251727838801e-12 0.86926785416552643</Rotation>
+<Translation>0.10432439378286036 -0.010000000000000005 0.059327932468860083</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_triangulo_cima-1" uid="Base_triangulo_cima-1" entityUid="Base_triangulo_cima*:*Default">
+<Transform>
+<Rotation>0.99997873325455855 0 0.0065217358585614692 0 1 0 -0.0065217358585614692 0 0.99997873325455855</Rotation>
+<Translation>-2.883577759223994e-14 -0.02 -2.8297611303224382e-13</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-1" uid="entre_barras1-1" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>0.99997873325455855 -0.0030447948072308724 0.0057673445527998074 -5.5647693043342985e-16 0.88432660841794075 0.46686877133089782 -0.0065217358585617112 -0.46685884255158311 0.88430780166907219</Rotation>
+<Translation>-0.0018522648998627591 -0.010000000000511088 -0.28400805373893173</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-4" uid="Barra_baixo-4" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.99997471225138534 -0.0041608406083778809 0.0057673445527997814 0.00098697166481028073 0.8843260576523293 0.46686877133089755 -0.0070427796140371587 -0.46685127306511731 0.88430780166907219</Rotation>
+<Translation>-0.023375736903218796 -0.0088328280721839264 -0.2816568168155647</Translation>
+</Transform>
+</Instance>
+<Instance name="base_baixo-1" uid="base_baixo-1" entityUid="base_baixo*:*Default">
+<Transform>
+<Rotation>0.99997873325464692 0 0.0065217358449698405 0 1 0 -0.0065217358449698405 0 0.99997873325464692</Rotation>
+<Translation>0.00025126020113468546 -0.41117807382875432 0.038525764128305537</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-5" uid="Barra_baixo-5" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.49479400957574177 0.40528204198628992 0.76871669328263181 0.0009869716575311039 0.88432605765428252 -0.46686877132721327 -0.86900973180678931 0.23176257289963301 0.43715923395032424</Rotation>
+<Translation>0.25560982696198459 -0.0088328280713176471 0.12058442641888545</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-5" uid="entre_barras1-5" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>-0.50563735554583089 -0.40278922022987457 0.76294934874028719 -1.882242168831204e-16 0.88432660841842492 0.46686877132998067 -0.86274611832022696 0.23606629092222253 -0.4471485677195059</Rotation>
+<Translation>-0.064835417368791101 -0.40617807382875432 0.037419129798687299</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-2" uid="entre_barras1-2" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>-0.49434137770822034 0.40583401502924604 -0.76871669328223935 2.4980018054066022e-16 0.88432660841943456 0.46686877132806842 0.86926785416552632 0.23079255162726139 -0.43715923395010126</Rotation>
+<Translation>0.24688432186599832 -0.0099999999999104278 0.14039991841300337</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-3" uid="entre_barras1-3" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>-0.50563735554583122 -0.4027892202298744 0.76294934874028708 -1.803786698854592e-16 0.88432660841842492 0.46686877132998056 -0.86274611832022663 0.23606629092222267 -0.44714856771950623</Rotation>
+<Translation>-0.24503205696815811 -0.010000000000292792 0.14360813532499431</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-1" uid="Barra_baixo-1" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.50608658217207292 -0.40222464196287266 -0.7629493487402873 -0.00098697166283401587 0.88432605765281569 -0.46686877132998061 0.86248211415212916 0.23702903019264931 0.44714856771950606</Rotation>
+<Translation>-0.2540152771318499 -0.0088328280719677799 0.12390813741535725</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_cima-3" uid="Barra_cima-3" entityUid="Barra_cima*:*Default">
+<Transform>
+<Rotation>0.0065217358585620486 -2.0014325047372163e-14 -0.99997873325455833 3.1163399637550248e-12 1.0000000000000002 3.3870476492633034e-16 0.99997873325455844 -3.1163292004867597e-12 0.0065217358585621275</Rotation>
+<Translation>-0.0018522648998627632 -0.01000000000051109 -0.28400805373893173</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-2" uid="Barra_baixo-2" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.50608658217207281 -0.40222464196287272 -0.76294934874028719 -0.00098697166283425028 0.88432605765281558 -0.46686877132998084 0.86248211415212928 0.23702903019264965 0.44714856771950617</Rotation>
+<Translation>-0.23223409006076476 -0.0088328280719678336 0.16107239039603377</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-6" uid="entre_barras1-6" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>0.99997873325455833 -0.0030447948072310832 0.0057673445528000668 -5.0111368982261121e-16 0.88432660841793997 0.46686877133089899 -0.0065217358585620425 -0.46685884255158444 0.88430780166907141</Rotation>
+<Translation>1.1791692690530685e-05 -0.40617807382875432 -0.074858683405758436</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-3" uid="Barra_baixo-3" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.99997471225138568 -0.0041608406083778688 0.0057673445527998161 0.00098697166481027834 0.88432605765232941 0.46686877133089744 -0.0070427796140371786 -0.46685127306511731 0.8843078016690723</Rotation>
+<Translation>0.019700043826257271 -0.008832828072183805 -0.28193775165395329</Translation>
+</Transform>
+</Instance>
+<Instance name="Barra_baixo-6" uid="Barra_baixo-6" entityUid="Barra_baixo*:*Default">
+<Transform>
+<Rotation>0.49479400957574199 0.40528204198628986 0.7687166932826317 0.00098697165753117502 0.8843260576542824 -0.46686877132721338 -0.8690097318067892 0.23176257289963315 0.43715923395032436</Rotation>
+<Translation>0.23431523330361564 -0.0088328280713176523 0.15802961423737918</Translation>
+</Transform>
+</Instance>
+<Instance name="entre_barras1-4" uid="entre_barras1-4" entityUid="entre_barras1*:*Default">
+<Transform>
+<Rotation>-0.49434137770822051 0.40583401502924604 -0.76871669328223913 2.6367796834847463e-16 0.88432660841943433 0.46686877132806864 0.86926785416552621 0.23079255162726139 -0.43715923395010131</Rotation>
+<Translation>0.065317967055807266 -0.4061780738288267 0.036570285753778492</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.11497078794377713 0.0099999999999999863 0.040892941483317242</Position>
+<Axis>-0.50000000000000056 3.4694478478576254e-16 0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.11497078794377713 0.0099999999999999863 0.040892941483317242</Position>
+<Axis>-0.50000000000000056 3.4694478478576254e-16 0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.11009550807568882 0.02 0.069337173915963932</Position>
+<Axis>0.50000000000000044 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>-0.22817380893458822 0.0099999999999999065 -0.15518044244305343</Position>
+<Axis>0.50000000000000033 3.4694472023902201e-16 0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-2</Uid>
+</InstancePath>
+<Position>0.16400000000000001 0 0.0049999999999999489</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>-0.22817380893458822 0.0099999999999999065 -0.15518044244305343</Position>
+<Axis>0.50000000000000033 3.4694472023902201e-16 0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-2</Uid>
+</InstancePath>
+<Position>0.16400000000000001 0 0.0049999999999999489</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>-0.11509550807568882 0.02 0.060676919878119545</Position>
+<Axis>0.50000000000000033 0 0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0050000000000000183</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.15847710979348639 0.0099999999999999378 -0.12001409379408338</Position>
+<Axis>-1.0000000000000002 3.4694475974210215e-16 6.6613381477509392e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-3</Uid>
+</InstancePath>
+<Position>0.16400000000000003 0 0.0050000000000000122</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.15847710979348639 0.0099999999999999378 -0.12001409379408338</Position>
+<Axis>-1.0000000000000002 3.4694475974210215e-16 6.6613381477509392e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-3</Uid>
+</InstancePath>
+<Position>0.16400000000000003 0 0.0050000000000000122</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0.0049999999999998709 0.02 -0.1300140937940833</Position>
+<Axis>-1.0000000000000002 0 5.5511151231257827e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0049999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000005 0 0</Position>
+<Axis>-1.0000000000000002 -1.8171228410857054e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000006 -0.0025000000000000022 -0.0025000000000000022</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999992</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-1</Uid>
+</InstancePath>
+<Position>0.16400000000000003 0 0.0049999999999999697</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0 0</Position>
+<Axis>-1 -2.4980018054066022e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 -0.0025000000000000022 -0.0025000000000000577</Position>
+<Axis>1 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_cima-2</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0 0</Position>
+<Axis>-1 -1.3877787807814457e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 -0.0025000000000000022 -0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_cima-2</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>0.021538348415310993 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>0.021538348415311007 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>-0.021538348415310993 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>-4.4408920985006262e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-3</Uid>
+</InstancePath>
+<Position>-0.021538348415310993 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>4.4408920985006262e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>0.021538348415311017 0 -0.0025000000000000022</Position>
+<Axis>0 2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-3</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000577</Position>
+<Axis>0 1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>0.021538348415311017 0 0</Position>
+<Axis>0 2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0025000000000000022</Position>
+<Axis>0 1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>-0.021538348415311021 0 -0.0024999999999999467</Position>
+<Axis>0 2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-4</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000577</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-1</Uid>
+</InstancePath>
+<Position>-0.021538348415311021 0 0</Position>
+<Axis>0 2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>-0.021538348415311007 0 -0.0025000000000000577</Position>
+<Axis>0 -1.2490009027033011e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-5</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>-0.021538348415310993 0 0</Position>
+<Axis>0 -1.2490009027033011e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-5</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>0.021538348415311007 0 -0.0025000000000000577</Position>
+<Axis>0 -1.2490009027033011e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-6</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000577</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-2</Uid>
+</InstancePath>
+<Position>0.021538348415311007 0 0</Position>
+<Axis>0 -1.2490009027033011e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-6</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000577</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-5</Uid>
+</InstancePath>
+<Position>0 -0.44800000000000001 0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-4</Uid>
+</InstancePath>
+<Position>-0.021538348415311017 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-6</Uid>
+</InstancePath>
+<Position>0 -0.44799999999999984 0.0025000000000000022</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-4</Uid>
+</InstancePath>
+<Position>0.021538348415311007 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-6</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000577</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-4</Uid>
+</InstancePath>
+<Position>0.02153834841531101 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-2</Uid>
+</InstancePath>
+<Position>0 -0.44800000000000006 0.0024999999999999467</Position>
+<Axis>-4.4408920985006262e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-5</Uid>
+</InstancePath>
+<Position>-0.021538348415311017 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-1</Uid>
+</InstancePath>
+<Position>0 -0.44800000000000001 0.0024999999999999467</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-5</Uid>
+</InstancePath>
+<Position>0.021538348415311014 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>4.4408920985006262e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-5</Uid>
+</InstancePath>
+<Position>-0.021538348415311014 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-4</Uid>
+</InstancePath>
+<Position>0 -0.44799999999999995 0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-6</Uid>
+</InstancePath>
+<Position>-0.021538348415311007 0 -0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Barra_baixo-3</Uid>
+</InstancePath>
+<Position>0 -0.44800000000000006 0.0025000000000000022</Position>
+<Axis>0 1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-6</Uid>
+</InstancePath>
+<Position>0.02153834841531101 0 -0.0025000000000000577</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barra_baixo-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-6</Uid>
+</InstancePath>
+<Position>-0.021538348415311007 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-6</Uid>
+</InstancePath>
+<Position>-0.015000000000000001 0 0</Position>
+<Axis>-1 -1.8388068845354155e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>0.010071067811882385 0.0050000000000000044 -0.11338359796637659</Position>
+<Axis>-1 0 -1.0711917464156784e-13</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-5</Uid>
+</InstancePath>
+<Position>-0.014999999999999996 0 0</Position>
+<Axis>-1 -1.6653345369377348e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>-0.06986361011728616 0.0050000000000000044 -0.0098198767796650044</Position>
+<Axis>0.49999999999999201 0 0.86602540378444315</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-5</Uid>
+</InstancePath>
+<Position>0.014999999999999993 0.0025000000000000022 -0.0024999999999999467</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>-0.063729999999982384 0.010000000000000009 -0.0051961524227177106</Position>
+<Axis>-0.50000000000010481 0 -0.8660254037843782</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>entre_barras1-4</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0 0</Position>
+<Axis>-1 -1.9428902930940239e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>0.13795945328142703 0.0050000000000000044 -0.12776533692444078</Position>
+<Axis>-0.49999999999941458 0 0.86602540378477677</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>0.063729999999988185 0.010000000000000009 -0.0051961524227177106</Position>
+<Axis>0.5000000000005479 0 -0.86602540378412252</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-4</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 -0.0024999999999999467 -0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>entre_barras1-6</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.0025000000000000577 -0.0025000000000000022</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>0.0030000000000574263 0.010000000000000009 -0.11038359796641559</Position>
+<Axis>0.99999999999999989 0 -1.3592859476885266e-11</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>deltafinal</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_triangulo_cima-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base_baixo-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Barra_baixo" uid="Barra_baixo*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Barra_baixo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015676073009183032</Mass>
+<CenterOfMass>0 -0.22400000000000009 0</CenterOfMass>
+<Inertia>0.00026221718029210462 9.6967650004361875e-08 0.00026224883097123743 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Barra_baixo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Barra_cima" uid="Barra_cima*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Barra_cima.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024106681318560277</Mass>
+<CenterOfMass>0.082000000000000003 0 0</CenterOfMass>
+<Inertia>5.9414616190935425e-07 6.0140458014575319e-05 6.0332826154508673e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Barra_cima_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base_triangulo_cima" uid="Base_triangulo_cima*:*Default" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_triangulo_cima.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2806130371026574</Mass>
+<CenterOfMass>0 0.010000000000000002 0</CenterOfMass>
+<Inertia>0.0078203025592862054 0.015555156057836446 0.0078203025592862001 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_triangulo_cima_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base_baixo" uid="base_baixo*:*Default" version="231">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base_baixo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077385284543102478</Mass>
+<CenterOfMass>1.6565822914959252e-14 0.005000000000000001 -0.038526583463058796</CenterOfMass>
+<Inertia>5.8657686755183602e-05 0.00011602083274776998 5.8657686755029476e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_baixo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="entre_barras1" uid="entre_barras1*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="entre_barras1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012528176382281522</Mass>
+<CenterOfMass>0 0 -0.00066227617195231637</CenterOfMass>
+<Inertia>1.1939679103992086e-08 3.6502372300479831e-07 3.7345591693824026e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="entre_barras1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
