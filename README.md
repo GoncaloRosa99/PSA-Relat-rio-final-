@@ -20,4 +20,6 @@ De salientar que alguns códigos presentes no relatório não estão atualizados
 Para além destes ficheiros estão ainda 2 relatórios efetuados a meio do semestre (PSA_WOKWI.pdf e PSA_Relatório_trajetórias.pdf)
 
 Apresentam-se também os ficheiros de modelação no solidworks/simscape dos 3 corpos estudados (Modelo de braço robódico, Delta genérico e Delta com medidas específicas).
-	
+
+Queriamos deixar também um agradecimento ao caríssimo professor César Vasques pela ajuda e pelo apoio nos diversos problemas que foram surgindo. 
+E deixar um agradecimento também ao ilustre ChatGPT por tanto que nos ajudou.
